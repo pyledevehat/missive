@@ -1,0 +1,112 @@
+fieldset {
+    width: 700px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: white #666666 #666666 white;
+    border-style: solid;
+    background-color: #aaaaaa;
+    padding: 30px 25px 10px;
+    position: relative;
+    z-index: 60;
+}
+.legend {
+    background-color: #aaaaaa;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: white #666666 #666666 white;
+    border-style: solid;
+    padding: 3px 15px;
+    font-weight: bolder;
+    position: relative;
+    bottom: -15px;
+    left: 30px;
+    width: 350px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 70;
+}
+.legend h2 {
+    position: relative;
+    top: -18px;
+    text-align: left;
+}
+.wrapper {
+    background: silver;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+}
+.wait {
+    position: relative;
+    top: 45%;
+    left: 45%;
+}
+#archives .arch {
+    position: relative;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    width: 575px;
+    margin: 2px 0px;
+    padding: 1px 10px;
+    list-style: none;
+}
+#archives a {
+    text-decoration: none;
+    color: black;
+}
+#archives .arch:hover {
+    background: white;
+    border-color: red;
+    cursor: pointer;
+}
+
+#archive_wrapper {
+    position: fixed;
+    z-index: 80;
+    background: silver;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+}
+
+#archive_win {
+    position: fixed;
+    width: 700px;
+    top: 50px;
+    left: 50px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: white #666666 #666666 white;
+    border-style: solid;
+    background-color: #aaaaaa;
+    padding: 30px 25px 10px;
+    z-index: 90;
+}
+
+#close {
+    float: right;
+    right: -20px;
+    top: -25px;
+    position: relative;
+}
+
+#archive_content {
+    z-index: 100;
+    background-color: white; 
+    position: relative; 
+    display: block; 
+    overflow: auto; 
+    height: 400px; 
+    width: 650px; 
+    padding: 20px;
+}
